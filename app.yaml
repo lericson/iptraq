@@ -1,0 +1,8 @@
+application: iptraq
+version: 2-open
+runtime: python
+api_version: 1
+
+handlers:
+- url: .*
+  script: runcgi.py
